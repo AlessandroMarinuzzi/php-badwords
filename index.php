@@ -39,6 +39,8 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
     $censored_verse = str_replace($censored_word, "***", $verse);
 
+    var_dump($verse);
+
     // echo "<p>" . $censored_paragraph . "</p>";
 
     // echo "<div>The paragraph has " . strlen($censored_paragraph) . " characters</div>";
